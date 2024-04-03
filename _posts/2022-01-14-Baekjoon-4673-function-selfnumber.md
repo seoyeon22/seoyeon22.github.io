@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Coding Test - Slef Number"
+permalink: /codingtest
 ---
 
 # Self Number
