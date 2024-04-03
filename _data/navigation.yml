@@ -1,9 +1,13 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Category"
+  - title: "HOME"
+    url: /
+  - title: "PORTFOLIO"
+    url: /portfolio/
+  - title: "CATAGORIES"
     url: /categories/
+  - title: "TAGS"
+    url: /tags/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "Sample Posts"
@@ -12,16 +16,5 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-sidebar-category:
-  - title: Category
-    children:
-      - title: "HOME"
-        url: /
-      - title: "PORTFOLIO"
-        url: /portfolio/
-      - title: "CATAGORIES"
-        url: /categories/
-      - title: "TAGS"
-        url: /tags/
+      
         

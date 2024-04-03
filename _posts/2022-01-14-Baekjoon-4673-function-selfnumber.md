@@ -1,7 +1,8 @@
 ---
 layout: single
-title: "Coding Test - Slef Number"
-permalink: /codingtest
+title: "[BOJ4673] 셀프 넘버"
+categories:
+    - Coding Test
 ---
 
 # Self Number
