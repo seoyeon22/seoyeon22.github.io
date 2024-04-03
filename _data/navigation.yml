@@ -16,10 +16,12 @@ main:
 sidebar-category:
   - title: Category
     children:
-      - title: "Blog"
-        url: "/blog"
-      - title: "TIL"
-        url: "/til"
-      - title: "Coding Test"
-        url: "/codingtest"
+      - title: "HOME"
+        url: /
+      - title: "PORTFOLIO"
+        url: /portfolio/
+      - title: "CATAGORIES"
+        url: /categories/
+      - title: "TAGS"
+        url: /tags/
         
