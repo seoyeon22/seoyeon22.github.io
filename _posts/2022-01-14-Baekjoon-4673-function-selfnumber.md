@@ -1,8 +1,7 @@
 ---
 layout: single
 title: "[BOJ4673] 셀프 넘버"
-categories:
-    - Coding Test
+category: Coding Test
 ---
 
 # Self Number

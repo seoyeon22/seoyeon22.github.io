@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Basic Markdown Syntax"
+category: Markdown
 ---
 # Basic Markdown Syntax
 

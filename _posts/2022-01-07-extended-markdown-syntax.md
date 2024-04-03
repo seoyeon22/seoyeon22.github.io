@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Extended Markdown Syntax"
+category: Markdown
 ---
 
 # Extended Markdown Syntax
