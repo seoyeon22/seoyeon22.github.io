@@ -16,7 +16,7 @@ feature_row:
     excerpt: "기숙사생을 위한 통합 앱"
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--secondar"
+    btn_class: "btn--primary"
   - image_path: /assets/images/time_zip_mockup.png
     title: "Time.zip"
     excerpt: "학우들의 자기계발을 위한 웹 서비스"
