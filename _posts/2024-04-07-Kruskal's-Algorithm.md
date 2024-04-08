@@ -131,7 +131,7 @@ def union(parent, a, b):
 
 for edge in edges:
     cost, a, b = edge
-    # 사이클이 발생하지 앟을 경우 집합에 포함
+    # 사이클이 발생하지 않을 경우 집합에 포함
     if find(parent, a) != find(parent, b):
         union(parent, a, b)
         weights += cost
