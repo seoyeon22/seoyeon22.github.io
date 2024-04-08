@@ -4,15 +4,9 @@ title: "Backtracking"
 category: Algorithm
 tags:
     - backtracking
+    - pruning
+    - search algorithm
 ---
-<div>
-<span style= "padding:3px; border:1px solid; border-radius:5px;">Search Algorithm</span> &nbsp;
-<span style= "padding:3px; border:1px solid; border-radius:5px;">Pruning</span> &nbsp;
-<span style= "padding:3px; border:1px solid; border-radius:5px;">BFS</span> &nbsp;
-<span style= "padding:3px; border:1px solid; border-radius:5px;">DFS</span> &nbsp;
-</div><br/>
-
-코딩 테스트 문제를 풀면서 가장 이해가 어려운 백트래킹에 대하여 스스로 이해하고 싶어서 글을 써본다.
 
 # Backtracking
 
@@ -22,7 +16,7 @@ tags:
 
 > exhaustive searching(완전 탐색)을 위한 divide-and-conquer 방식
 
-그래서 어떻게 한다는 거야?
+의사 코드
 
 ```python
 def 재귀함수(n):
@@ -39,9 +33,7 @@ def 재귀함수(n):
 ## 활용
 스도쿠, 순열&조합, N-Queen, 암호해독
 
-[백준 N과 M(1)](https://www.acmicpc.net/problem/15649)
-<details>
-<summary>문제 풀이</summary>
+[백준 15649 -  N과 M(1)](https://www.acmicpc.net/problem/15649)
 
 ```python
 N, M = map(int, input().split())
@@ -61,11 +53,6 @@ def backtrack():
 
 backtrack()
 ```
-</details>
-<br/>
 
-[백준 N-Queen](https://www.acmicpc.net/problem/9663)
-<details>
-<summary>문제 풀이</summary>
 
-</details>
+[백준 9663 - N-Queen](https://www.acmicpc.net/problem/9663)
