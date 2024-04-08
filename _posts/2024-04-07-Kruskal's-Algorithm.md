@@ -6,6 +6,8 @@ tags:
     - MST
     - Prim
     - Kruskal
+toc: true
+toc_sticky: true
 ---
 # Minimum Spanning Tree(최소 신장 트리)
 > 주어진 그래프의 모든 정점들을 연결하고 사이클을 이루지 않는 부분 그래프 중에서 가중치의 합이 최소인 트리
