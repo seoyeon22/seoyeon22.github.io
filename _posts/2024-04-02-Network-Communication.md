@@ -3,9 +3,10 @@ layout: single
 title: "Network Communication"
 category: Server
 tags:
+    - process
+    - IPC
     - network
     - socket
-    - multi process
 toc: true
 toc_sticky: true
 ---
@@ -62,6 +63,7 @@ context switch가 발생하는 경우는 다음과 같다.
 - 자원을 공유하기 때문에 필연적으로 여러 스레드가 함께 전역 변수를 사용할 경우 발생할 수 있는 충돌 즉, 동기화 문제가 발생하므로 교착상태가 발생하지 않도록 주의해야 한다
 
 # IPC(Inter Process Communication)
+
 ### IPC가 필요한 이유
 - 정보 공유
 - 계산 속도 증가
