@@ -142,7 +142,7 @@ HTTPS(Hypertext Transfer Protocol Secure)는 HTTP 요청 및 응답에 SSL(Secur
 
 - 소켓 구성 요소: 인터넷 프로토콜, 로컬 IP 주소, 로컬 포트, 원격 IP 주소, 원격 포트
 - IPC(Inter-Process Communication)의 수단을 제공
-- datagram socket: UDP 소켓, 비 연결지향
+- datagram socket: UDP(User Datagram Protocol) 소켓, 비 연결지향
 - stream socket: TCP 전용 소켓
 ![TCP socket system call](https://github.com/seoyeon22/seoyeon22.github.io/assets/70433999/1510b716-0166-484a-a8df-9ab94a00fc4b)
     - 시스템 콜
@@ -150,8 +150,6 @@ HTTPS(Hypertext Transfer Protocol Secure)는 HTTP 요청 및 응답에 SSL(Secur
         2. bind(): 생성한 소켓에 실제 아이피 주소와 포트번호를 부여(서버에서만 사용)
         3. listen(): 연결 요청 대기, 소켓 활성화 - 파라미터로 받은 backlog 크기만큼 backlog queue 생성(연결지향인 TCP에서만 사용)
         4. accept(): 연결 요청을 수락, 새로운 소켓 할당 후 데이터 송수신
-
-- UDP(User Datagram Protocol): 사용자 데이터그램 프로토콜, 비디오 재생 또는 DNS 조회와 같이 시간에 민감한 전송에 사용
 
 # System Call
 > 운영 체제의 커널이 제공하는 서비스에 대해 응용 프로그램의 요청에 따라 커널에 접근하기 위한 인터페이스
