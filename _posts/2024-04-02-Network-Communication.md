@@ -73,11 +73,13 @@ context switch가 발생하는 경우는 다음과 같다.
 
 ## `Shared Memory` 모델
 > 협력 프로세스 간 공유되는 메모리(버퍼)를 통해 동시에 통신
+
 - 전역 변수, 공유 변수, 공유 파일을 통해 통신
 - producer 프로세스가 item을 생성하고 buffer에 저장하면 consumer 프로세스가 buffer의 item을 소비하는 형식으로 두 프로세스는 동기화되어야 함
 
 ## `Massage Passing` 모델
 > OS가 프로세스 간 통신 방법을 제공하고 메시지를 대리 전달
+
 - OS가 동기화를 해주기 때문에 안전하고 충돌 가능성이 없으나 시스템 콜을 사용하기 때문에 성능이 떨어짐
 - Blocking을 이용한 Synchronization
 
