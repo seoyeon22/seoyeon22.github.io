@@ -12,6 +12,7 @@ toc_sticky: true
 # Process & Thread
 ### `process`
 > an executing program
+
 - 운영체제로부터 자원을 할당받은 작업의 단위
 - 프로세스별로 독립된 메모리 영역을 Code/Data/Stack/Heap의 형식으로 할당받으므로 다른 프로세스의 변수나 자료에 접근 불가능
 - 프로세스의 상태(Process State)
@@ -26,6 +27,7 @@ toc_sticky: true
 
 ### `thread`
 > the basic unit to which the operating system allocates processor time
+
 - 프로세스가 할당받은 자원을 이용하는 실행 흐름의 단위
 - Code/Data/Heap 형식으로 할당된 메모리를 스레드 간에 공유하며 작동
 
